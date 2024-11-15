@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preguntas y Sugerencias</title>
+    <link rel="stylesheet" href="css/index6.css">
+</head>
+<body>
+    <!-- Encabezado con el botón para regresar a index2 -->
+    <header>
+        <a href="index2.html" id="back-btn">Regresar a la pantalla principal</a>
+    </header>
+    <br>
+    <br>
+    <br>
+    <!-- Caja de Preguntas y Sugerencias -->
+    <div id="suggestions-box">
+        <img src="img/bordeS.png" alt="Borde de Preguntas y Sugerencias" id="header-image">
+        <br>
+        <p id="anonymous-note">Este formulario es anónimo</p>
+        <br>
+        <textarea id="suggestion-text" placeholder="Escribe tu sugerencia o pregunta aquí..."></textarea>
+        <br>
+         <!-- Mensaje de error -->
+         <p id="error-message"></p>
+        <button id="submit-btn" onclick="submitSuggestion()">Enviar Sugerencia</button>
+    </div>
+     <!-- Imagen en la parte inferior que abarca todo el ancho -->
+     <div id="bottom-image-container">
+        <img id="bottom-image" src="img/Pie.png" alt="Imagen de Fondo">
+    </div>
+    <script src="js/index6.js"></script>
+</body>
+</html>

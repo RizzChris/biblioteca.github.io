@@ -1,0 +1,112 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('../img/fondo2.jpg'); /* Fondo de la página */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+/* Encabezado con el botón de regreso */
+header {
+    width: 100%;
+    background-color: #007bff;
+    padding: 15px;
+    text-align: center;
+}
+
+#back-btn {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+/* Imagen del encabezado */
+#header-image {
+    display: block;
+    margin: 20px auto; /* Centrar la imagen */
+    width: 80%; /* Ajustar tamaño */
+    max-width: 400px; /* Tamaño máximo */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+/* Caja de sugerencias */
+#suggestions-box {
+    background-color: white;
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+    margin-top: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+#suggestions-box h2 {
+    text-align: center;
+    font-size: 28px; /* Tamaño del texto */
+    color: black; /* Color del texto */
+    font-weight: normal; /* Peso normal del texto */
+    font-style: italic; /* Texto en cursiva */
+    background-image: url('../img/bordeS.png'); /* Imagen de fondo */
+    background-repeat: no-repeat;
+    background-size: cover; /* Ajustar la imagen para cubrir el área */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+}
+
+#anonymous-note {
+    font-size: 14px;S
+    color: #666;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#suggestion-text {
+    width: 96%;
+    height: 150px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    resize: none;
+    margin-bottom: 20px;
+}
+/* Mensaje de error */
+#error-message {
+    display: none; /* Ocultar por defecto */
+    color: red;
+    font-size: 14px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+#submit-btn {
+    background-color: #28a745;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#submit-btn:hover {
+    background-color: #218838;
+}
+/* Imagen en la parte inferior que abarca todo el ancho */
+#bottom-image-container {
+    width: 80%; /* Controla el ancho de la imagen */
+    max-width: 600px; /* Limita el tamaño máximo */
+    margin-top: 30px; /* Espacio antes de la imagen */
+    text-align: center; /* Asegura que la imagen esté centrada */
+}
+
+#bottom-image {
+    width: 100%; /* Abarca todo el contenedor */
+    height: 200px; /* Mantiene la relación de aspecto */
+    border-radius: 8px; /* Opcional, para bordes redondeados */
+}

@@ -1,0 +1,173 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+/* Encabezado con el botón de regreso */
+header {
+    width: 100%;
+    background-color: #007bff;
+    padding: 15px;
+    text-align: center;
+}
+
+#back-btn {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+/* Estacionamiento */
+#parking-lot {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Espacio entre filas */
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px; /* Espacio entre columnas */
+}
+
+.cuadrado {
+    display: flex; /* Activa el modo flexbox */
+    justify-content: space-between; /* Distribuye los divs con espacio entre ellos */
+    align-items: flex-start; /* Alinea los divs al inicio vertical */
+    padding: 20px;
+}
+
+/* Div izquierda */
+.izquierda {
+    background-color: #f0c674;
+    width: 48%; /* Ocupa casi la mitad del ancho */
+    padding: 10px;
+    box-sizing: border-box;
+    margin-left: 70px;
+    gap: 10px; /* Incluye el padding en el ancho total */
+}
+
+/* Div derecha */
+.derecha {
+    width: 48%; /* Ocupa casi la mitad del ancho */
+    padding: 10px;
+    box-sizing: border-box; /* Incluye el padding en el ancho total */
+    height: center;
+    padding-top: 100px;
+}
+
+.space {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.space.available {
+    background-color: #4caf50; /* Verde para disponible */
+}
+
+.space.occupied {
+    background-color: #f44336; /* Rojo para ocupado */
+}
+
+/* El cubículo específico con la clase fixed-yellow será amarillo */
+.space.fixed-yellow {
+    background-color: yellow !important; /* Fijar el color amarillo */
+        background-image: url('../img/usb-symbol.svg'); /* Ruta de la imagen */
+        background-size: cover; /* Ajusta la imagen para cubrir el cuadro */
+        background-position: center; /* Centra la imagen */
+        background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+/* Información lateral */
+#info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Espacio entre los recuadros de información */
+}
+
+.info-box {
+    border: 2px solid #ccc;
+    padding: 10px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.info-box p {
+    margin: 0;
+    writing-mode: vertical-rl; /* Texto orientado de arriba hacia abajo */
+    text-align: left;
+}
+
+/* Pequeños cuadros para lugares ocupados, disponibles y bloqueados */
+.small-parking-lot {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.small-space {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.small-space.occupied {
+    background-color: #f44336; /* Rojo para ocupado */
+}
+
+.small-space.available {
+    background-color: #4caf50; /* Verde para disponible */
+}
+
+.small-space.blocked {
+    background-color: yellow; /* Amarillo para bloqueado */
+}
+/* Estilo para los cubículos */
+.space {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centra el texto vertical y horizontalmente */
+    overflow: hidden; /* Oculta cualquier texto que sobresalga */
+    text-align: center;
+    position: relative;
+}
+
+.space span {
+    display: block;
+    width: 100%; /* Asegura que el texto ocupe todo el cubículo */
+    text-overflow: ellipsis; /* Añade "..." si el texto es demasiado largo */
+    overflow: hidden;
+    white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+    font-size: 12px; /* Tamaño de texto ajustable */
+}
+
+/* Si quieres que el texto se ajuste dentro del cubículo (en varias líneas si es necesario) */
+.space span {
+    word-wrap: break-word; /* Permite dividir las palabras largas si es necesario */
+    text-align: center; /* Alinea el texto al centro */
+    padding: 2px; /* Espacio interno para que el texto no toque los bordes */
+}
+

@@ -1,0 +1,81 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/fondo2.jpg'); /* Fondo de la página */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    height: 100vh;
+}
+/* Encabezado con el botón de regreso */
+header {
+    width: 100%;
+    background-color: #007bff;
+    padding: 15px;
+    text-align: center;
+}
+
+#back-btn {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+/* Contenedor principal */
+#container {
+    width: 100%;
+    text-align: center;
+}
+
+/* Imagen del encabezado */
+#header-image {
+    display: block;
+    margin: 20px auto; /* Centrar la imagen */
+    width: 80%; /* Ajustar tamaño */
+    max-width: 400px; /* Tamaño máximo */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+/* Estilo para los recuadros horizontales */
+.option-box {
+    width: 80%; /* Tamaño del recuadro */
+    max-width: 600px; /* Ancho máximo */
+    height: 5vh;
+    text-align: center;
+    background-color: #00ff0d;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 15px;
+    margin: 10px auto; /* Espaciado entre recuadros */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    border: 2px solid black; /* Agrega un borde negro */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Efecto al pasar el cursor */
+.option-box:hover {
+    background-color: #0056b3;
+    transform: scale(1.05); /* Agrandar ligeramente */
+}
+/* Imagen en la parte inferior que abarca todo el ancho */
+#bottom-image-container {
+    width: 80%; /* Controla el ancho de la imagen */
+    max-width: 600px; /* Limita el tamaño máximo */
+    margin-top: 30px; /* Espacio antes de la imagen */
+    text-align: center; /* Asegura que la imagen esté centrada */
+}
+
+#bottom-image {
+    width: 100%; /* Abarca todo el contenedor */
+    height: 200px; /* Mantiene la relación de aspecto */
+    border-radius: 8px; /* Opcional, para bordes redondeados */
+}

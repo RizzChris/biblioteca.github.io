@@ -1,0 +1,62 @@
+[
+    {
+        "title": "Fundamentos de Programación",
+        "author": "Luis Joyanes Aguilar",
+        "publication_date": "2006",
+        "url": "https://www.fime.me/downloads.php?do=file&id=1"
+    },
+    {
+        "title": "Cálculo Diferencial",
+        "author": "Dennis G. Zill",
+        "publication_date": "2009",
+        "url": "https://www.fime.me/downloads.php?do=file&id=2"
+    },
+    {
+        "title": "Estática",
+        "author": "J.L. Meriam y L.G. Kraige",
+        "publication_date": "2008",
+        "url": "https://www.fime.me/downloads.php?do=file&id=3"
+    },
+    {
+        "title": "Dinámica",
+        "author": "J.L. Meriam y L.G. Kraige",
+        "publication_date": "2008",
+        "url": "https://www.fime.me/downloads.php?do=file&id=4"
+    },
+    {
+        "title": "Álgebra Lineal",
+        "author": "Stanley Grossman",
+        "publication_date": "2007",
+        "url": "https://www.fime.me/downloads.php?do=file&id=5"
+    },
+    {
+        "title": "Termodinámica",
+        "author": "Yunus A. Çengel y Michael A. Boles",
+        "publication_date": "2011",
+        "url": "https://www.fime.me/downloads.php?do=file&id=6"
+    },
+    {
+        "title": "Mecánica de Materiales",
+        "author": "Ferdinand P. Beer y E. Russell Johnston Jr.",
+        "publication_date": "2009",
+        "url": "https://www.fime.me/downloads.php?do=file&id=7"
+    },
+    {
+        "title": "Circuitos Eléctricos",
+        "author": "James W. Nilsson y Susan Riedel",
+        "publication_date": "2010",
+        "url": "https://www.fime.me/downloads.php?do=file&id=8"
+    },
+    {
+        "title": "Electrónica de Potencia",
+        "author": "Eduard Ballester y Robert Piqué",
+        "publication_date": "2005",
+        "url": "https://www.fime.me/downloads.php?do=file&id=9"
+    },
+    {
+        "title": "Competencia Comunicativa",
+        "author": "Martha L. Castañeda",
+        "publication_date": "2012",
+        "url": "https://www.fime.me/downloads.php?do=file&id=10"
+    }
+]

@@ -1,0 +1,126 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/fondo2.jpg'); /* Ruta a la imagen */
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    height: 100vh;
+}
+
+/* Encabezado con el botón de regreso */
+header {
+    width: 100%;
+    background-color: #007bff;
+    padding: 15px;
+    text-align: center;
+}
+
+#back-btn {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Contenedor principal */
+#container {
+    width: 80%;
+    text-align: center;
+}
+
+/* Imagen del encabezado */
+#header-image {
+    display: block;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+/* Recuadro de búsqueda */
+.form-busqueda {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 90%; /* Ajusta el ancho al 90% del viewport */
+    max-width: 1200px; /* Limita el tamaño máximo */
+    margin: 0 auto; /* Centra horizontalmente */
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #374151;
+}
+
+.form-group input {
+    width: 90%; /* Abarca todo el contenedor */
+    padding: 10px;
+    border: 1px solid #d1d5db;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.btn-buscar {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 90%; /* Abarca todo el contenedor */
+}
+
+.btn-buscar:hover {
+    background-color: #45a049;
+}
+
+/* Contenedor de resultados */
+.results-container {
+    margin-top: 20px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    width: 90%; /* Ajusta el ancho al 90% del viewport */
+    max-width: 1200px; /* Limita el tamaño máximo */
+    margin: 0 auto; /* Centra horizontalmente */
+}
+
+.results-container h2 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #374151;
+}
+
+#results-list {
+    list-style: none;
+    padding: 0;
+}
+
+#results-list li {
+    padding: 10px;
+    border-bottom: 1px solid #d1d5db;
+}
+
+#results-list li a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+#results-list li a:hover {
+    text-decoration: underline;
+}
